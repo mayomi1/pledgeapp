@@ -1,0 +1,108 @@
+html * {
+    font-family: Futura !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        background: url("assets/images/flyer1.png") no-repeat;
+        background-size: cover;
+    }
+
+    .mainBody {
+        /*background: url("assets/images/flyer1.png") no-repeat;*/
+        /*background-size: cover;*/
+        /*height: 100vh;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*align-items: center;*/
+    }
+
+    .centered {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn {
+        background-color: #E59A45;
+        color: #000000;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: transparent;
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    .text1 {
+        position: absolute;
+        top: 300px;
+        right: 50px;
+    }
+
+    .pledgeContainer {
+        background: url("assets/images/pledge.png");
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+    }
+
+    .pledgeWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+        flex-basis: 100%;
+    }
+
+    .textCenter {
+        text-align: center;
+    }
+
+    .margin100 {
+        margin-top: 200px;
+    }
+
+    .thePledgeContainer {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        background-color: #110F0F;
+    }
+
+    .pledgeText {
+        color: #fff;
+        font-size: 12px;
+        line-height: 15px;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .successPledgeContainer {
+        background: url("assets/images/pledgeDone.png");
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+    }
+
+    .successPledgeWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: #ffffff;
+        margin-top: 250px;
+    }
+
+    .leftArrow {
+        margin: 10px 0;
+    }
+}
+
